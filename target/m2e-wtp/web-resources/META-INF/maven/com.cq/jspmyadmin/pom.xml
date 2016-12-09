@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<java_version>1.6</java_version>
+		<java_version>1.7</java_version>
 
 		<!-- For all tomcat servers -->
 		<tomcat_url>http://localhost:8080/manager/html</tomcat_url>
@@ -50,7 +50,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>jspadmin</finalName>
+		<finalName>jspmyadmin</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -106,7 +106,7 @@
 					<stopKey>foo</stopKey>
 					<scanIntervalSeconds>5</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/</contextPath>
+						<contextPath>/jspmyadmin</contextPath>
 					</webApp>
 					<httpConnector>
 						<port>80</port>
